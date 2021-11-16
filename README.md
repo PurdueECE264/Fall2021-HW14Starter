@@ -99,6 +99,29 @@ letters.  Each letter should use one line and provide three pieces of
 information: (1) the letter (such as `A` or `#`), (2) the ASCII value
 (such as 65 for `A`), (3) the code (a sequence of 0 or 1).
 
+If the input is
+
+`1A1m1#1G0001c1s000`
+
+Your program's output should be
+
+```
+# 35 0110
+A 65 00
+c 99 10
+G 71 0111
+m 109 010
+s 115 11
+```
+
+It is acceptable if the lines are ordered differently (for example,
+the line for `A` may appear above the line for `#`).  Your program
+does *not* need to sort the lines because the grading program will
+sort the lines for you.
+
+This homework uses text files for input and output. The next homework
+will use binary files.
+
 Submission
 ==========
 
